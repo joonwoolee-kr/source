@@ -9,7 +9,7 @@ import lombok.extern.log4j.Log4j2;
 @Controller
 public class HomeController {
     @GetMapping
-    public void getHome(){
-        log.info("홈 요청");
+    public void getHome() {
+        log.info("홈 요청 22");
     }
 }
